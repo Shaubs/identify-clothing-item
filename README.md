@@ -5,10 +5,14 @@ As a college student who has no access to a washing machine, doing laundry seems
 
 Here there are two ways of classifying.
 1) Extacting image parameters and loading it into a Naive Bayes classifier
+          
           Extracting_parameters_from_image.py : use this to get the parameters
+          
           Classifying_type_of_clothing.py :load the parameters to classsify
           
           
 2) Using CNN trained model on Region of interest
-          training_cnn_for_shirt_pant.py : this will create model "pant-shirt-model.h5" which will be run on the region of interest for                                              classification
+         
+         training_cnn_for_shirt_pant.py : this will create model "pant-shirt-model.h5" which will be run on the region of interest for                                              classification
+          
           pant-shirt-classify-with-cnn.py : classify image
