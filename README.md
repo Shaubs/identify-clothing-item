@@ -13,6 +13,6 @@ Here there are two ways of classifying.
           
 2) Using CNN trained model on Region of interest
          
-         training_cnn_for_shirt_pant.py : this will create model "pant-shirt-model.h5" which will be run on the region of interest for                                              classification
-          
+         training_cnn_for_shirt_pant.py : this will create model "pant-shirt-model.h5" which will be run on the region of interest for classification
+         
           pant-shirt-classify-with-cnn.py : classify image
